@@ -5,6 +5,7 @@ public class PrimeNumber {
         while (count < 10) {
             if (isPrime(number)) {
                 System.out.println(number);
+                System.out.println("Prime Numbers");
                 count++;
             }
             number++;
